@@ -1,8 +1,9 @@
+// Stock Market Portfolio App by Gaurav Singh
+
 import express from 'express';
 import { engine } from 'express-handlebars';
 
 const app = express();
-
 const PORT = process.env.PORT || 5000;
 
 // Set Handlebars Middleware 
